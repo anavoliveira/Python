@@ -1,8 +1,0 @@
-import pyautogui
-import pyperclip
-
-time.sleep(1)
-#Passo1 - Entrar no sistema https://drive.google.com/drive/folders/1SKS9d0ECQA_sJDSmyN0rEsBqXrJIsCPn
-pyautogui.hotkey('ctrl','t')
-pyautogui.write('https://drive.google.com/drive/folders/1pdGvpu6DJzIBqPqu_J7zHEAjyNFq2KNc')
-pyautogui.press('enter')
