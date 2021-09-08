@@ -16,4 +16,4 @@ for lance in leilao.lances:
     print(f'O usuario {lance.usuario.nome} deu um lance de {lance.valor}')
 
 
-print(f'O menor lance foi de {self.leilao.menor_lance} e o maior valor foi de {self.leilao.maior_lance}')
+print(f'O menor lance foi de {leilao.menor_lance} e o maior valor foi de {leilao.maior_lance}')
